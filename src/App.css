@@ -1,0 +1,184 @@
+.App {
+  text-align: center;
+}
+
+/* user dashboard */
+Image {
+  padding-top: 20px;
+} 
+
+.center{
+width: 80%;
+ margin: auto;
+ padding-top: 10px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: black !important;
+}
+.navbar-dark .navbar-brand {
+  color: black !important;
+}
+.bg-light {
+  border-bottom: 0.4px solid black;
+}
+
+a {
+  color: grey !important;
+  text-decoration: none;
+  background-color: transparent;
+  /* justify-content: space-around; */
+  padding: 0px 10px;
+}
+
+.mx-auto{
+  width: 25%;
+  margin-top: 20px;
+}
+
+.card {
+  border: none !important;
+}
+
+.card-img-top {
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.imageEvent {
+  margin-left: 50px;
+  height: 140px;
+  width: 150px;
+}
+
+.foot{
+  width: 100%;
+  color: #fff;
+  background-color: black;
+  padding: 2% 2% 4% 2%;
+}
+
+.fa{
+  font-size: 25px;
+  color: #fff;
+  padding: 10px;
+}
+
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+}
+/* About Us Page: Niya- Starts */
+.jumbotron{
+  background-image: url('./images/aboutus4.jpg');
+  background-size: 100% 100%;
+  color: #fff;
+  font-size: 50px;
+  padding: 180px 25px;
+}
+.container-fluid {
+  padding: 60px 50px;
+}
+.bg-grey {
+  background-color: #f6f6f6;
+}
+.logo {
+  font-size: 200px;
+  background: url('./images/aboutUs2.jpg');
+  background-size:cover;
+  display: inline-block;
+height: 300px;
+width: 300px;
+}
+.logo1 {
+  font-size: 200px;
+  background: url('./images/aboutUs3.jpg') no-repeat top left;
+  background-size:cover;
+  display: inline-block;
+height: 300px;
+width: 300px;
+}
+.col-sm-8 h2{
+  font-size: 70px;
+}
+.col-sm-8 p{
+  font-family: 'Roboto', sans-serif;
+  padding: 5px 5px;
+}
+@media screen and (max-width: 768px) {
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+  }
+}
+/* register Event page */
+/* Style the container/contact section */
+.registerEvent {
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.78);
+  padding: 10px;
+  height: 600px;
+  margin-top: 10px;
+  border: 1px solid wheat;
+}
+.registerEvent h2{
+  color: black;
+  text-align: center;
+  padding: 5px 5px 5px 10px;
+  font-size: xx-large;
+}
+.registerEvent h1{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  color: rgb(238, 36, 53);
+  font-size: 40px;
+}
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.column label{
+ font-weight: bold;
+ color: rgb(236, 14, 136);
+  padding: 20px;
+}
+
+.column p{
+  font-family: Arial, Helvetica, sans-serif;
+  color: blue;
+  font-size: 20px;
+}
+
+.column button {
+  margin-top: 100px;
+  border-radius: 8px;
+  
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+/* About Us Page: Niya- Ends */
+
+.btns {
+  float: right;
+}
